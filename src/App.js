@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes,   } from 'react-router-dom';
+import {  Route, Routes,   } from 'react-router-dom';
 import './App.css';
 import SwapiComponent from './components/Characters/Characters';
 import CharacterDetails from './components/charactersdetails/charactersdetails';
