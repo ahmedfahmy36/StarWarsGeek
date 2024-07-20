@@ -19,7 +19,7 @@ import Footer from './components/footer/footer';
 
 function App() {
   return (
-    <Router>
+    <Router basename='/build/index.html'>
     <div className="app-container d-flex flex-column min-vh-100">
       <Header />
       <main className="flex-grow-1">
