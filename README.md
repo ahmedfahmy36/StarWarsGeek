@@ -6,15 +6,15 @@ This project was built using data from swapi.dev api
 
 JavaScript,Bootstrap and Reactjs
 --------------------------------------------
-### Starting with Homepage of the app showing the variety of starwars data:
+### Starting with Homepage of the app showing the variety of starwars data like Character , Films , Vehciles , planets , starships and Species:
 
 ![Screenshot (4)](https://github.com/user-attachments/assets/b45d2e3a-3130-41de-8c19-c94099a753dd)
 
-### Just by clicking on what u looking for from the homepage u will find yourself infront of all what u looking for:
+### Just by clicking on what you looking for from the homepage you will find yourself infront of a big library of starwars data:
 
 ![Screenshot (5)](https://github.com/user-attachments/assets/d957b6f1-6df3-425e-803d-28848f984e74)
 
-### pick what u want to know more about and view the details of your fav character as an example:
+### pick what you want to know more about and view the details of your favourite character as an example:
 
 ![Screenshot (6)](https://github.com/user-attachments/assets/e7ce2920-2ddc-4783-8d3c-c0e8389dd89d)
 ---------------------------------------------
