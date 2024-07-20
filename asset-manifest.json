@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.95649db3.css",
-    "main.js": "/static/js/main.1764abdd.js",
-    "static/js/453.e1fd60f6.chunk.js": "/static/js/453.e1fd60f6.chunk.js",
-    "index.html": "/index.html",
-    "main.95649db3.css.map": "/static/css/main.95649db3.css.map",
-    "main.1764abdd.js.map": "/static/js/main.1764abdd.js.map",
-    "453.e1fd60f6.chunk.js.map": "/static/js/453.e1fd60f6.chunk.js.map"
+    "main.css": "/Starwarsgeek/static/css/main.95649db3.css",
+    "main.js": "/Starwarsgeek/static/js/main.c9b18a96.js",
+    "static/js/453.e1fd60f6.chunk.js": "/Starwarsgeek/static/js/453.e1fd60f6.chunk.js",
+    "index.html": "/Starwarsgeek/index.html",
+    "main.95649db3.css.map": "/Starwarsgeek/static/css/main.95649db3.css.map",
+    "main.c9b18a96.js.map": "/Starwarsgeek/static/js/main.c9b18a96.js.map",
+    "453.e1fd60f6.chunk.js.map": "/Starwarsgeek/static/js/453.e1fd60f6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.95649db3.css",
-    "static/js/main.1764abdd.js"
+    "static/js/main.c9b18a96.js"
   ]
 }
