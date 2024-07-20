@@ -1,0 +1,172 @@
+body {
+  background: url(http://www.script-tutorials.com/demos/360/images/stars.png);
+  background-color: black;
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  font-family: "Star Jedi", sans-serif;
+  color: yellow !important;
+}
+/*header*/
+
+.header {
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  font-family: "Star Jedi", sans-serif;
+}
+
+.navbar-toggler {
+  transition: background-color 0.3s ease;
+  border-color: white;
+  border-width: 2px;
+}
+
+.navbar-toggler.collapsed {
+  background-color: transparent;
+}
+
+.navbar-toggler:not(.collapsed) {
+  background-color: #007bff;
+}
+
+.nav-item {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.nav-link,
+.navbar-brand,
+.nav-link:visited,
+.navbar-brand:visited {
+  color: white;
+}
+.nav-link:hover,
+.navbar-brand:hover {
+  color: #fffb00c7; /* LED green color */
+  text-shadow: 0 0 10px #fffb00c7, 0 0 20px #fffb00c7, 0 0 30px #fffb00c7,
+    0 0 40px #fffb00c7;
+}
+
+/*end of header*/
+
+/*Home page*/
+.title {
+  font-size: 90px;
+  font-family: "Star Jedi Hollow", sans-serif;
+  text-shadow: 0 0 10px #e5ff009f, 0 0 20px #e5ff009f, 0 0 30px #e5ff009f,
+    0 0 40px #e5ff009f;
+}
+.btn {
+  background-color: rgba(0, 0, 0, 0.5) !important;
+  color: white;
+}
+.character-card {
+  background-image: url(https://static1.srcdn.com/wordpress/wp-content/uploads/2024/03/star-wars-darth-vader-luke-skywalker.jpg);
+  background-position: 100%;
+  background-size: cover;
+  border-radius: 8px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.character-card:hover {
+  transform: translateY(-20px);
+  box-shadow: 0 4px 50px #035ee6;
+}
+.planets-card {
+  background-image: url(https://static1.srcdn.com/wordpress/wp-content/uploads/2023/10/major-star-wars-planets-future-image.jpg);
+  background-position: 100%;
+  background-size: cover;
+  border-radius: 8px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.planets-card:hover {
+  transform: translateY(-20px);
+  box-shadow: 0 4px 50px #f77810;
+}
+.films-card {
+  background-image: url(https://cdn.europosters.eu/image/hp/75998.jpg);
+  background-position: 100%;
+  background-size: cover;
+  border-radius: 8px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.films-card:hover {
+  transform: translateY(-20px);
+  box-shadow: 0 4px 50px #fa0aaa;
+}
+.vehicles-card {
+  background-image: url(https://lumiere-a.akamaihd.net/v1/images/Which-Star-Wars-Vehicle-is-Meant-For-You-AT-AT_e1161c77.jpeg?region=56%2C0%2C888%2C500);
+  background-position: 100%;
+  background-size: cover;
+  border-radius: 8px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.vehicles-card:hover {
+  transform: translateY(-20px);
+  box-shadow: 0 4px 50px #b3f6f8;
+}
+.starships-card {
+  background-image: url(https://www.giantfreakinrobot.com/wp-content/uploads/2019/12/eta2-900x506.jpg);
+  background-position: 100%;
+  background-size: cover;
+  border-radius: 8px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.starships-card:hover {
+  transform: translateY(-20px);
+  box-shadow: 0 4px 50px #f9fc42;
+}
+.species-card {
+  background-image: url(https://mallsurfer.wordpress.com/wp-content/uploads/2013/02/yoda.png);
+  background-position: 100%;
+  background-size: cover;
+  border-radius: 8px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.species-card:hover {
+  transform: translateY(-20px);
+  box-shadow: 0 4px 50px #77ff4e;
+}
+/*End of Homepage*/
+
+/*Details components*/
+.details-card {
+  box-shadow: 8px 4px 8px rgba(208, 255, 0, 0.801);
+  border-radius: 25px;
+  background-color: rgba(99, 99, 99, 0.493);
+  font-family: "SF Distant Galaxy", sans-serif;
+  font-size: larger;
+}
+.card-title {
+  color: yellow;
+}
+/*end of details components*/
+
+/*search bar*/
+.search-bar {
+  position: relative;
+}
+
+.search-history {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background-color: white;
+  z-index: 1000;
+  max-height: 200px;
+  overflow-y: auto;
+  transition: max-height 0.3s ease-in-out;
+}
+
+.search-history-hidden {
+  max-height: 0;
+  overflow: hidden;
+}
+/*end of searchbar*/
+/*footer*/
+.footer {
+  bottom: 0;
+  width: 100%;
+  padding: 10px 0;
+  color: white;
+}
+/*end of footer*/
