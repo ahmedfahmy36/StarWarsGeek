@@ -7,15 +7,14 @@ body {
   margin: 0px;
   padding: 0px;
   text-align: center;
-  font-family: "Star Jedi", sans-serif;
-  color: yellow !important;
+  font-family: "Star Jedi";
+    color: yellow !important;
 }
 /*header*/
 
 .header {
   margin-bottom: 0px;
   padding-bottom: 0px;
-  font-family: "Star Jedi", sans-serif;
 }
 
 .navbar-toggler {
@@ -54,8 +53,8 @@ body {
 /*Home page*/
 .title {
   font-size: 90px;
-  font-family: "Star Jedi Hollow", sans-serif;
-  text-shadow: 0 0 10px #e5ff009f, 0 0 20px #e5ff009f, 0 0 30px #e5ff009f,
+  font-family: "SF Distant Galaxy Outline V3";
+    text-shadow: 0 0 10px #e5ff009f, 0 0 20px #e5ff009f, 0 0 30px #e5ff009f,
     0 0 40px #e5ff009f;
 }
 .btn {
@@ -135,7 +134,7 @@ body {
   box-shadow: 8px 4px 8px rgba(208, 255, 0, 0.801);
   border-radius: 25px;
   background-color: rgba(99, 99, 99, 0.493);
-  font-family: "SF Distant Galaxy", sans-serif;
+  font-family: "Star Jedi";
   font-size: larger;
 }
 .card-title {
